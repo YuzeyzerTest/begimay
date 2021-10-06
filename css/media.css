@@ -39,4 +39,17 @@
     .hero__description {
         font-size: 12px;
     }
+    .trip__top {
+        flex-direction: column;
+        text-align: center;
+    }
+    .trip__top img {
+        margin: 20px auto;
+    }
+    .title {
+        font-size: 42px;
+    }
+    .trip__description {
+        font-size: 12px;
+    }
 }
