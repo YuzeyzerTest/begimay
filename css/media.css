@@ -67,4 +67,39 @@
     .trip__nav li.is-active::before {
         bottom: -20px;
     }
+    .trip__content {
+        flex-direction: column-reverse;
+    }
+    .trip__right {
+        padding: 0;
+        margin-bottom: 200px;
+        width: 100%;
+        text-align: center;
+    }
+    .trip__right h3 {
+        font-size: 42px;
+    }
+    .trip__right p {
+        font-size: 13px;
+    }
+    .trip__social {
+        right: 50%;
+        transform: translateX(50%);
+        bottom: -130px;
+    }
+    .button {
+        padding: 10px 25px;
+        font-size: 12px;
+    }
+    .trip__slider {
+        width: 100%;
+        margin-left: 0;
+    }
+    .slider-item__text {
+        left: 40%;
+        transform: translate(-50%,-50%);
+    }
+    .col-6 {
+        width: 100%;
+    }
 }
