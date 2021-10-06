@@ -52,4 +52,19 @@
     .trip__description {
         font-size: 12px;
     }
+    .trip__nav {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .trip__nav ul {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .trip__nav li {
+        padding: 0;
+        margin-bottom: 45px;
+    }
+    .trip__nav li.is-active::before {
+        bottom: -20px;
+    }
 }
