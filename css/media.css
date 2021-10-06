@@ -12,6 +12,14 @@
     .hero__container,
     .header__container{
         padding: 0 20px;
+        width: auto;
+    }
+    .header__container {
+        align-items: center;
+    }
+    .header__menu {
+        padding: 10px 25px;
+        font-size: 12px;
     }
     .hero__wrapper {
         margin-top: -150px;
